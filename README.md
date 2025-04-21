@@ -17,4 +17,4 @@ This project uses Splunk to analyze Linux authentication logs and visualize fail
 ## 📁 Project Contents
 - `auth.log`: Sample log file ingested into Splunk
 - `spl_query.txt`: All SPL queries used to generate dashboard insights
-- `dashboard_screenshot.png`: Screenshot of final dashboard (optional)
+- `dashboard_screenshot.png`: Screenshot of final dashboard
