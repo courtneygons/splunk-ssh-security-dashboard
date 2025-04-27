@@ -18,7 +18,7 @@ It is designed to showcase SIEM (Security Information and Event Management) fund
 
 ## Dashboard Preview
 
-![SSH Security Dashboard Screenshot](dashboard_screenshot.png)
+![SSH Security Dashboard Screenshot](images/dashboard_screenshot.png)
 
 ## Project Contents
 
