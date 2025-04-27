@@ -4,26 +4,28 @@ This project demonstrates SSH login monitoring using **Splunk Cloud** to analyze
 It is designed to showcase SIEM (Security Information and Event Management) fundamentals and real-world log analysis techniques.
 
 ## Tools Used
-- **Splunk Cloud** (Free Trial)
-- **SPL (Search Processing Language)**
-- **auth.log** (sample Linux authentication log)
-- **macOS** for the local environment
+
+- **Splunk Cloud** (SIEM platform)
+- **Search Processing Language (SPL)** for data queries
+- **Sample SSH authentication log** (`auth.log`)
 
 ## Features
+
 - Searches for failed SSH login attempts using SPL queries
 - Tracks failed login events by time, source IP address, and username
-- Visualizes login trends and anomalies through a custom Splunk dashboard
+- Visualizes login trends and anomalies through a custom Splunk Cloud dashboard
 - Demonstrates SIEM functionality, log ingestion, and security event analysis workflows
-
-## Project Contents
-- `auth.log` — Sample Linux authentication log file ingested into Splunk
-- `spl_query.txt` — SPL queries used for dashboard panels and data analysis
-- `dashboard_screenshot.png` — Screenshot of the completed SSH Security Monitoring dashboard
-
-## Purpose
-
-This project demonstrates practical cloud-based SIEM skills in monitoring SSH security events, highlighting proactive threat detection and security analytics in Splunk Cloud.
 
 ## Dashboard Preview
 
-![SSH Security Dashboard](dashboard_screenshot.png)
+![SSH Security Dashboard Screenshot](dashboard_screenshot.png)
+
+## Project Contents
+
+- `auth.log` — Contains sample Linux SSH login events for ingestion and analysis
+- `spl_query.txt` — Includes SPL queries used to build dashboard visualizations
+- `dashboard_screenshot.png` — Shows the final Splunk Cloud SSH Security Monitoring dashboard
+
+## Purpose
+
+This project demonstrates practical cloud-based SIEM skills in monitoring SSH security events, highlighting proactive threat detection and security analytics in Splunk Cloud environments.
