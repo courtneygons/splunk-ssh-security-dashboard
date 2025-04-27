@@ -19,3 +19,11 @@ It is designed to showcase SIEM (Security Information and Event Management) fund
 - `auth.log` — Sample Linux authentication log file ingested into Splunk
 - `spl_query.txt` — SPL queries used for dashboard panels and data analysis
 - `dashboard_screenshot.png` — Screenshot of the completed SSH Security Monitoring dashboard
+
+## Purpose
+
+This project demonstrates practical cloud-based SIEM skills in monitoring SSH security events, highlighting proactive threat detection and security analytics in Splunk Cloud.
+
+## Dashboard Preview
+
+![SSH Security Dashboard](dashboard_screenshot.png)
